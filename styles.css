@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+#month {
+  text-align: start !important;
+}
+
+ol {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.legend {
+  display: flex;
+  margin-top: 50px;
+}
+
+.legend span {
+  margin-right: 5px;
+  padding: 0 5px;
+}
+
+#y {
+  background-color: lightcoral;
+}
+#r {
+  background-color: orange;
+}
+#j {
+  background-color: lightgreen;
+}
+#c {
+  background-color: lightblue;
+}
