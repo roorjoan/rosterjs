@@ -15,8 +15,8 @@ export const months = [
 export const pos = [7, 3, 3, 6, 1, 4, 6, 2, 5, 7, 3, 5];
 export const days30 = [months[3], months[5], months[8], months[10]];
 export const colors = [
-  "lightcoral", //yuliesky
-  "orange", //ricardo
   "lightgreen", //jose
   "lightblue", //carlos
+  "lightcoral", //yuliesky
+  "orange", //ricardo
 ];
